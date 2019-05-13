@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+    <title>REGISTRO</title>
+</head>
+
+<body>  
+        
+          <nav class="navbar navbar-light" style="background-color:#6f42c1">
+                  <!-- Navbar content -->
+                  <a class="navbar-brand" href="#">CUIDAME!</a>
+                  <form class="form-inline">
+                      <ul class="nav">
+                          <li class="nav-item" >
+                            <a class="nav-link active" href="Quienes_somos.html">Quienes somos?</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="registro.html">Registro</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="tu_cuenta.html">Tu Cuenta</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+    
+                    <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+                </form>
+          </nav>
+                  
+
+          
+          <form>
+              <div class="cuerporegistro">
+
+                <div class="registro">
+                  <h4>Información de Registro</h3>
+                </div>
+                      
+            <div class="formulariogeneral">
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label for="inputnombre">Nombre(s)</label>
+                      <input type="nombre" class="form-control" id="inputnombre" placeholder="Nombre(s)">
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label for="input">Apellido Paterno</label>
+                      <input type="paterno" class="form-control" id="paterno" placeholder="Apellido Paterno">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputAddress">Dirección</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="Calle,Número">
+                  </div>
+                  <div class="form-row">
+                    
+                    <div class="form-group col-md-4">
+                      <label for="inputState">Alcaldia</label>
+                      <select id="inputState" class="form-control">
+                          <option>...</option>
+                          <option selected>Benito Juarez</option>
+                          <option selected>Miguel Hidalgo</option>
+                          <option selected>Venustiano Carranza</option>
+                      </select>
+                    </div>
+            
+                    <div class="form-group col-md-4">
+                          <label for="inputState">Colonia</label>
+                          <select id="inputState" class="form-control">
+                              <option>...</option>
+                              <option selected>Polanco</option>
+                              <option selected>Condesa</option>
+                              <option selected>Roma</option>
+                          </select>
+                      </div>
+                    <div class="form-group col-md-2">
+                      <label for="inputZip">Codigo Postal</label>
+                      <input type="text" class="form-control" id="inputZip">
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label for="inputZip">Telefono Celular</label>
+                        <input type="text" class="form-control" id="inputZip">
+                    </div>
+                    <div class="custom-file">
+                        <input type="file" class="custom-file-input" id="customFileLang" lang="es">
+                        <label class="custom-file-label" for="customFileLang">Documento Oficial (ENCRIPTADO)</label>
+                      </div>
+                      <div class="tipoayuda">
+                          <label for="inputState">Tipo de Ayuda</label>
+                          <select id="inputState" class="form-control">
+                              <option>...</option>
+                              <option selected>Hospedaje por una Noche</option>
+                              <option selected>Transporte a lugar Solicitado</option>
+                              <option selected>Apoyo Emocional</option>
+                              <option selected>Apoyo Psicológico</option>
+                              <option selected>Alimento</option>
+                              <option selected>Compañia hasta que se sienta Segura</option>
+                              <option selected>Todas las anteriores</option>
+                          </select>
+                        </div>
+                      
+                  
+                    
+                      <div class="contacto">
+                          <h3>Contacto de Familiar o Amigo</h3>
+                      </div>
+                      <div class="formulariocontacto">
+                            <div class="form-row">
+                              <div class="form-group col-md-6">
+                                <label for="inputnombre">Nombre(s)</label>
+                                <input type="nombre" class="form-control" id="inputnombre" placeholder="Nombre(s)">
+                              </div>
+                            <div class="form-group col-md-6">
+                              <label for="input">Apellido Paterno</label>
+                              <input type="paterno" class="form-control" id="paterno" placeholder="Apellido Paterno">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="input">Telefono Celular</label>
+                                <input type="cel" class="form-control" id="cel" placeholder="">
+                              </div>
+                       
+                          </div>
+                                                      
+                           
+                            
+                          </div>
+                          </div>
+                        </form>       
+                
+          </div>
+          <div class="carruselregistro">
+              <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../CUIDAME!/imagenes/nomas.jpg" class="d-block w-100" alt="">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../CUIDAME!/imagenes/ayudando.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../CUIDAME!/imagenes/violencia.png" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+          </div>
+
+          </div>
+
+          <footer>
+              CUIDAME!
+          </footer>
+          
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>    
+  <script src="main.js"></script>
+  </body>
+  </html>

@@ -1,0 +1,139 @@
+.cuerporegistro{
+    border:2px solid red;
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    flex-direction: row;
+    align-content: center;
+    
+}
+.registro{
+    
+    width: 40%;
+    height: 10%;
+    margin: .5%;
+    display: flex;
+    align-content: center;
+}
+
+.alert-primary{
+    width: 50%;
+    height: 60%;
+    margin:2%;
+    padding: .5%;
+ 
+}
+.formulariogeneral{
+   
+    width: 60%;
+    margin: 1%;
+}
+.formulariocontacto{
+    width: 60%;
+    margin: 1%;
+}
+.carruselregistro{
+    border:2px solid purple;
+    width: 30%;
+    height: 50%;
+    display: flex;
+    margin: 3%;
+    padding: 3%;
+}
+.custom-file-label{
+    width: 98%;
+    margin: 1%;
+}
+.tipoayuda{
+    width: 60%;
+    height: 10%;
+    margin: 1%;
+}
+.nav-item a{
+    
+    color:white;
+}
+.cuerpo_quienessomos{
+    border:2px solid red;
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.logocuidame{
+    
+    width: 25%;
+    height:25%;
+    margin:2%;
+}
+.carruselsomos{
+    border: 2px solid pink;
+    margin:2%;
+    width: 50%;
+}
+.cuerpo_cuenta{
+    border:2px solid red;
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.card{
+    border: 2px solid pink;
+    margin:1%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+.card-img-top{
+    border: 2px solid pink;
+    border-radius: 10%;
+    margin:1%;
+    width: 70%;
+}
+.cuadro_estadistica{
+    border: 2px solid blue;
+    margin:1%;
+    width: 70%;
+    display: flex;
+    align-content: center;
+}
+.estadistica1{
+    margin:2%;
+    width: 95%;
+}
+.cuerpo_contacto{
+    
+    width: 100%;
+    margin:2%;
+    display: flex;
+    flex-flow: column wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.jumbotron{
+    
+    width: 60%;
+    margin: 2%;
+}
+.logocuidame_contacto{
+   
+    background: black;
+    width: 25%;
+    height:25%;
+    margin:2%;
+}
+footer{
+    background-color: #6f42c1;
+    color: white;
+    width: 100%;
+    position:fixed;
+    bottom: 0px;
+    text-align: center;
+    padding: 10px;
+}
